@@ -17,7 +17,7 @@ import Link from 'next/link';
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-extrabold text-center mb-12">Event Timeline</h2>
                     <div className="relative">
-                        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-yellow-400 hidden sm:block"></div>
+                        {/* <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-yellow-400 hidden sm:block"></div> */}
                         {[
                             { date: "May 1, 2024", title: "Registration Opens" },
                             { date: "June 15, 2024", title: "Call for Papers Deadline" },
