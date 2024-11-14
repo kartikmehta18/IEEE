@@ -18,6 +18,7 @@ import Sponsors from "./_components/Sponsors";
 import Speakers from "./_components/Speakers"
 import Footer from "./_components/Footer"
 
+
 export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
